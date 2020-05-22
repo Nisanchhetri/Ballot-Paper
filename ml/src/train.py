@@ -5,7 +5,7 @@ from src.predict import predict_labels
 
 def pretrained_model():
     print("Please select the model for classification:\n")
-    selected_model = input("1.InceptionNetV3\n2.MobileNet\n3.LeNet (CNN model)\n")
+    selected_model = input("1.MobileNet\n2.LeNet (CNN model)\n")
     model = loading_model(model_para=selected_model)
     image_array = input("Please enter the image array:\n")
     predicted_labels = predict_labels(model=model, input_image=image_array)
