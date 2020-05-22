@@ -11,7 +11,7 @@ An image classification project (CV) of AI training phase III.
 ├── env
 ├── logs
 ├── ml
-│   ├── configs
+│   ├── configs                 
 │   │   └── configs.py
 │   │   
 │   ├── dataset
@@ -21,6 +21,9 @@ An image classification project (CV) of AI training phase III.
 │   ├── model
 │   │   ├── prepare_model.py
 │   │   └── store_model.py
+│   ├── saved_model
+│   │   ├── mobile_model.h5
+│   │   └── cnn_model.h5
 │   │   
 │   ├── src
 │   │   ├── predict.py
@@ -62,7 +65,7 @@ Now, you are ready to lunch.
 ## Run
 To run this project, you can run `main.py` file which is inside the `ml` folder.
 ```
-python main.py
+python ml/main.py
 ```
 ## Complete overview
 The complete compiled project can be found inside the `notebook` folder as `Balot paper.ipynb`. You can just simply look over it to see.
