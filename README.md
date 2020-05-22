@@ -48,7 +48,14 @@ An image classification project (CV) of AI training phase III.
 ```
 ## Get started
 1. First, clone this project with the clone button at the top
-2. Create virtual environment in `env` folder using `virtualenv venv python==3.7` command.
+2. If you don't have `virtualenv` previously installed, first install it by,
+```
+pip install virtualenv
+```
+3. Create virtual environment in `env` folder using following command.
+```
+virtualenv venv python==3.7
+```
 
 ## Requirements 
 To run this project, first you have to install some dependencies in your virtual environment by following.
